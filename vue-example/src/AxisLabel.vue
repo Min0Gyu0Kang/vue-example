@@ -9,7 +9,7 @@ const props = defineProps({
 })
 
 const point = computed(() =>
-  valueToPoint(+props.stat.value + 10, props.index, props.total)
+  valueToPoint(100 + 10, props.index, props.total)
 )
 </script>
 
